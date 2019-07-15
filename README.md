@@ -6,7 +6,7 @@ Spring SpringMVC Mybatis Bootstrap
 ## 使用说明
 
 1. 下载代码 git clone https://github.com/pitt1997/SSMCRUD.git 下载到IDEA或Eclipse
-2. 运行sql文件夹下的sql文件
+2. 新建数据库，运行sql文件夹下的sql文件，生成相应的员工表及部门表
 3. 到src/jdbc.properties下修改你的数据库链接用户名与密码(以及连接驱动、数据库名等信息)
 4. 启动tomcat服务器，运行项目之后就可进入员工列表界面（或访问http://localhost:8080）
 
