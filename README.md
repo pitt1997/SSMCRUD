@@ -1,7 +1,7 @@
 ## SSM+Bootstrap框架整合实现分页效果的增删改查项目
 
 ## 使用技术
-Spring SpringMVC Mybatis Bootstrap
+Spring+SpringMVC+Mybatis+Bootstrap
 
 ## 使用说明
 
