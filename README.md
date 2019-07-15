@@ -1,4 +1,4 @@
-## SSMCRUD  SSM+Bootstrap框架整合  快速实现简单的增删改查项目
+## SSM+Bootstrap框架整合实现分页效果的增删改查项目
 
 ## 使用技术
 Spring SpringMVC Mybatis Bootstrap
@@ -14,25 +14,19 @@ Spring SpringMVC Mybatis Bootstrap
 可以进行简单的增删改查操作，具有美观的分页效果。
 
 ## 图片演示
-登录页面
+主界面员工列表显示
 
-![Image text](https://github.com/pitt1997/miaosha_idea/blob/master/showimgs/login.png)
+![Image text](https://github.com/pitt1997/SSMCRUD/tree/master/showimgs/list.png)
 
-商品列表页面
+员工增加
 
-![Image text](https://github.com/pitt1997/miaosha_idea/blob/master/showimgs/list.png)
+![Image text](https://github.com/pitt1997/SSMCRUD/tree/master/showimgs/add.png)
 
-商品详情页面
+员工修改
 
-![Image text](https://github.com/pitt1997/miaosha_idea/blob/master/showimgs/goodsdetail.png)
+![Image text](https://github.com/pitt1997/SSMCRUD/tree/master/showimgs/update.png)
 
-商品秒杀倒计时
 
-![Image text](https://github.com/pitt1997/miaosha_idea/blob/master/showimgs/wait.png)
-
-成功秒杀页面
-
-![Image text](https://github.com/pitt1997/miaosha_idea/blob/master/showimgs/miaoshasuccess.png)
 
 ## 更多知识
 个人博客： https://blog.csdn.net/brad_pitt7
