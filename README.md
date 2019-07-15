@@ -7,12 +7,11 @@ Spring+SpringMVC+Mybatis+Bootstrap
 
 1. 首先你要安装git，并且有github账号，在IDEA里面进行git和github的配置
 2. 下载代码 git clone https://github.com/pitt1997/SSMCRUD.git 下载到IDEA
-   具体步骤: File->New->Project From Version Control->Git->输入上方URL->clone
-3. 新建数据库，运行sql文件夹下的sql文件，生成相应的员工表及部门表
-4. 给项目配置启动配置，具体步骤如下：
-   Edit Configurations->添加Tomcat Server->Local->Deployment->添加Artifact(或者点Fix快速添加)
-5. 到src/jdbc.properties下修改你的数据库链接用户名与密码(以及连接驱动、数据库名等信息)
-6. 启动tomcat服务器，运行项目之后就可进入员工列表界面（或访问http://localhost:8080）
+3. IDEA具体步骤: File->New->Project From Version Control->Git->输入上方URL->clone
+4. 新建数据库，运行sql文件夹下的sql文件，生成相应的员工表及部门表
+5. 项目启动配置，具体步骤：Edit Configurations->添加Tomcat Server->Local->Deployment->添加Artifact(或者点Fix快速添加)
+6. 到src/jdbc.properties下修改你的数据库链接用户名与密码(以及连接驱动、数据库名等信息)
+7. 启动tomcat服务器，运行项目之后就可进入员工列表界面（或访问http://localhost:8080）
 
 ## 项目描述
 可以进行简单的增删改查操作，具有美观的分页效果。
