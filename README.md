@@ -16,15 +16,15 @@ Spring SpringMVC Mybatis Bootstrap
 ## 图片演示
 主界面员工列表显示
 
-![Image text](https://github.com/pitt1997/SSMCRUD/tree/master/showimgs/list.png)
+![Image text](https://github.com/pitt1997/SSMCRUD/blob/master/showimgs/list.png)
 
 员工增加
 
-![Image text](https://github.com/pitt1997/SSMCRUD/tree/master/showimgs/add.png)
+![Image text](https://github.com/pitt1997/SSMCRUD/blob/master/showimgs/add.png)
 
 员工修改
 
-![Image text](https://github.com/pitt1997/SSMCRUD/tree/master/showimgs/update.png)
+![Image text](https://github.com/pitt1997/SSMCRUD/blob/master/showimgs/update.png)
 
 
 
