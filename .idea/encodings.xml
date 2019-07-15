@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/src/com/cn/crud/bean/Employee.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/cn/crud/bean/Msg.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/cn/crud/controller/DepartmentController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/cn/crud/controller/EmployeeController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/cn/crud/dao/EmployeeMapper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/cn/crud/service/EmployeeService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/cn/crud/test/MBGTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/cn/crud/test/MVCTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/cn/crud/test/MapperTest.java" charset="GBK" />
+  </component>
+</project>

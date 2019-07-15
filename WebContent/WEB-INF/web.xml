@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xmlns="http://java.sun.com/xml/ns/javaee" 
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" 
+id="WebApp_ID" version="2.5">
+	<!--1、 启动spring的容器 -->	
+	<context-param>
+		<param-name>contextCofigLocation</param-name>
+		<!-- 
+		
+		<param-value>classpath:applicationContext.xml</param-value>
+		<param-value>classpath*:applicationContext.xml</param-value>
+		<param-value>/WEB-INF/applicationContext*.xml</param-value>
+		 -->
+		<param-value>classpath*:applicationContext.xml</param-value>
+		
+	</context-param>	
+	<!--  -->
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<!--2、 springMVC前端控制器，拦截所有请求 -->	
+	<servlet>          
+        <servlet-name>dispatcherServlet</servlet-name>  
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>  
+        <!-- 
+        <init-param>  
+            <param-name>contextConfigLocation</param-name>  
+             <param-value>classpath:spring-mvc.xml</param-value>             
+        </init-param>           
+         -->              
+        <load-on-startup>1</load-on-startup>  
+    </servlet> 
+	<servlet-mapping>
+		<servlet-name>dispatcherServlet</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+	
+	<!-- 4、使用REST风格的URI,将页面普通的POST请求转为指定的delete或者put请求 -->
+	<filter>  
+                <filter-name>HiddenHttpMethodFilter</filter-name>  
+                <filter-class>org.springframework.web.filter.HiddenHttpMethodFilter</filter-class>  
+    </filter>  
+    <filter-mapping>  
+                <filter-name>HiddenHttpMethodFilter</filter-name>  
+                <servlet-name>/*</servlet-name>  
+    </filter-mapping>
+  
+	<filter>
+				<filter-name>HttpPutFormContentFilter</filter-name>
+				<filter-class>org.springframework.web.filter.HttpPutFormContentFilter</filter-class>
+	</filter>
+	<filter-mapping>
+				 <filter-name>HttpPutFormContentFilter</filter-name>  
+                <servlet-name>/*</servlet-name>  
+	</filter-mapping>
+</web-app>
